@@ -1,0 +1,184 @@
+/*all--nav*/
+
+.background--dark .header, .background--dark .header a, .background--dark .header .side-menu-btn ul li a.right-icon, .background--dark .header .mobile-menu-icon {
+   color: #000 !important;
+}
+nav.navigation ul li a:hover {
+        color: #e6ae49;
+    }
+
+.side-menu-btn{
+	float:right;
+	position:relative;}
+	
+.side-menu-btn ul, .header li {
+  margin: 0;
+  padding: 0;
+}
+.side-menu-btn > ul > li, .mobile-menu-icon-wraper {
+  float: left;
+  padding: 35px 0 34px;
+  margin-left: 20px;
+  transition: all 0.25s ease 0s;
+  -webkit-transition: all 0.25s ease 0s;
+  -moz-transition: all 0.25s ease 0s;
+  -o-transition: all 0.25s ease 0s;
+}
+.side-menu-btn li {
+  list-style: outside none none;
+}
+@media (max-width: 991px){
+.navigation {
+  float:left !important;
+}
+.logo{
+	  line-height: 14px;
+	  padding-left:33%}
+
+}
+
+header .navigation a.current-ele {
+    color:#e6ae49 !important;
+}
+
+/*all--底部*/
+.footer ul li{
+	float:left;
+	list-style:none;
+	padding-left:50px;}
+.wrap {
+    text-align: center;
+}
+
+.wrap div {
+    display: inline-block;
+	padding:0 20px;
+}
+
+/*all*/
+.md{
+  width: 50%;
+}
+.lg{
+  width: 80%;
+}
+.mt-5{
+  margin-top: 5%;
+}
+.side-menu-btn .login{
+      font-family: 'Raleway', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+@media (max-width: 991px){
+.xs-ms-hidden {
+        visibility: hidden !important;
+        display: none !important;
+        opacity: 0;
+    }
+  }
+
+.fb {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.fb-btn {
+  font-family: helvetica;
+  font-size: 14px;
+  line-height: 50px;
+  border: 0;
+  text-align: center;
+  border-radius: 5px;
+  color: #fff;
+  background: #3A5795;
+  display: block;
+  width: 240px;
+  height: 50px;
+  padding-left: 40px;
+  letter-spacing: 1px;
+}
+.fb-btn:hover, .fb-btn:active {
+  box-shadow: 1px 1px 5px #173A76 !important;
+  color: #fff;
+  text-decoration: none !important;
+}
+a.fb.fb-btn span {
+  position: absolute;
+  top: 9px;
+  left: 18px;
+  background: url(../img/fb-logo.png);
+  width: 32px;
+  height: 32px;
+}
+
+.fr{
+	float:right;}
+
+
+.disabled{
+  display: none;
+}
+
+.side-menu .sign-out {
+        padding-bottom: 30px;
+        border-bottom: 1px solid #3e3e3e;
+        margin-bottom: 30px;
+    }
+
+        .side-menu .sign-out a {
+            color: #fff;
+            font-style: italic;
+            font-weight: 400;
+            font-size: 12px;
+            display: inline-block;
+            margin-top: 10px;
+        }
+
+            .side-menu .sign-out a:hover {
+                color: #e6ae49;
+                text-decoration: underline;
+            }
+
+
+/*計畫*/
+@media (max-width: 991px){
+.center-md {
+  text-align: center;
+    }
+}
+.center {
+  text-align: center;
+    }
+
+  /*今品咖啡*/
+  .pick{
+    border: 1px solid #e6ae49;
+  box-shadow: inset 0 0 0 1px #e6ae49;   
+  }
+  .Pricing-box .pick:after{
+     content: '';
+  position: absolute;
+  top: 1px;
+  right: 26px;
+  z-index: 10;
+  display: block;
+  width: 33px;
+  height: 33px;
+  background-image: url(../img/check.png);
+  background-color: #e6ae49;
+  
+  background-position: center center;
+  background-size: 16px 13px;
+  background-repeat: no-repeat;
+}
+.in-fb{
+  position: relative;
+}
+
+
+

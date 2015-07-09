@@ -1,0 +1,299 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>會員中心</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="nileforest">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+    <!-- Favicone Icon -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="apple-touch-icon" href="img/favicon.png">
+    <!-- CSS -->
+    <link href="css/main.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="css/font-awesome.css" rel="stylesheet" type="text/css" />
+    <link href="css/ionicons.css" rel="stylesheet" type="text/css" />
+    <link href="css/plugin/jPushMenu.css" rel="stylesheet" type="text/css" />
+    <link href="css/plugin/animate.css" rel="stylesheet" type="text/css" />
+    <link href="css/jquery-ui.css" rel="stylesheet" type="text/css" />
+    <link href="jStarbox-master/css/jstarbox.css" rel="stylesheet">
+</head>
+
+<body class="full-intro background--dark">
+    <!-- Preloader -->
+    <section id="preloader">
+        <div class="loader" id="loader">
+            <div class="loader-img"></div>
+        </div>
+    </section>
+    <!-- End Preloader -->
+    <!-- Sidemenu 登入/出 -->
+    <section class="side-menu cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right">
+        <div id="in" class="disabled">
+            <h5 class="white">登入</h5>
+            <div class="sign-in">
+                <input class="input-sm form-full" type="email" aria-required="true" id="email" name="email" placeholder="Email" value="" />
+                <input class="input-sm form-full" type="password" aria-required="true" id="password" name="password" placeholder="Password" value="" />
+                <input type="submit" class="btn btn-md btn-color-b form-full in-bt" value="Sign In" />
+            </div>
+            <a class="fb fb-btn in-bt" href="#">Sign up with Facebook<span></span></a>
+        </div>
+        <div id="out">
+            <div class="sign-out">
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1 text-center">
+                        <div class="post-media page-icon-top"> <img class="item-container" src="img/full/10.jpg" alt="1" /> </div>
+                        <h5 class="white">姓名</h5>
+                    </div>
+                </div>
+                <input type="submit" class="btn btn-md btn-color-b form-full out-bt" value="登出" />
+            </div>
+        </div>
+    </section>
+    <!--End Sidemenu 登入/出 -->
+    <!-- Site Wraper -->
+    <div class="wrapper">
+        <!-- HEADER -->
+        <header class="header">
+            <div class="container">
+                <!-- Rightside Menu  -->
+                <div class="side-menu-btn">
+                    <ul>
+                        <!--Sidebar Menu Icon-->
+                        <li class="login"> <a class="toggle-menu menu-right push-body">我的精品咖啡計畫</a> </li>
+                        <!-- End Sidebar Menu Icon-->
+                    </ul>
+                </div>
+                <!-- End Rightside Menu -->
+                <!-- Navigation Menu -->
+                <nav class="navigation">
+                    <ul>
+                        <li> <a href="project.html">精品咖啡訂閱計畫</a> </li>
+                        <li> <a href="cafe.html">今品咖啡</a> </li>
+                        <li> <a href="aboutus.html">關於Filtre Café</a> </li>
+                    </ul>
+                </nav>
+                <!--End Navigation Menu -->
+                <!-- logo -->
+                <div class="logo">
+                    <a href="index.html"> <img src="img/logo-black.png"> </a>
+                </div>
+                <!--End logo-->
+            </div>
+        </header>
+        <!-- END HEADER -->
+        <!-- CONTENT -------------------------------------------------------------------------------- -->
+        <!-- banner Section -->
+        <section class="pt">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-md-offset-2 text-center">
+                        <div class="post-media page-icon-top"> <img class="item-container" src="img/full/10.jpg" alt="1" /> </div>
+                        <h5>姓名</h5>
+                    </div>
+                    <div class="col-md-4 mb-sm-30 col-md-offset-1 pt-15" id="info-list">
+                        <h5>文字</h5>
+                        <ul class="project-detail-block">
+                            <li>
+                                <p> <strong class="dark-color">我的咖啡師 :</strong><span>文字文字文字文字文字</span> </p>
+                            </li>
+                            <li>
+                                <p> <strong class="dark-color">每月訂閱量 :</strong><span>文字文字文字文字文字</span> </p>
+                            </li>
+                            <li>
+                                <p> <strong class="dark-color">下次寄送時間 :</strong><span>文字文字文字文字文字</span> </p>
+                            </li>
+                            <li class="fr"><a href="#" class="btn btn-md btn-black change">變更</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 mb-sm-30 col-md-offset-1 pt-15 disabled" id="info-edit">
+                        <form>
+                            <h5>文字</h5>
+                            <ul class="project-detail-block">
+                                <li>
+                                    <p> <strong class="dark-color">我的咖啡師 :</strong><span>文字文字文字文字文字</span> </p>
+                                </li>
+                                <li>
+                                    <p> <strong class="dark-color">每月訂閱量 :</strong>
+                                        <span> <select class="md">
+                                <option>AA</option>
+                                <option>BB</option>
+                                <option>CC</option>
+                            </select></span> </p>
+                                </li>
+                                <li>
+                                    <p> <strong class="dark-color">下次寄送時間 :</strong>
+                                        <span> <select class="md">
+                                <option>AA</option>
+                                <option>BB</option>
+                                <option>CC</option>
+                            </select></span>
+                                    </p>
+                                </li>
+                                <li class="fr"><a href="#" class="btn btn-md btn-color-a done">儲存</a> <a href="#" class="btn btn-md btn-danger done">停用</a></li>
+                            </ul>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End banner Section -->
+        <!--  Section -->
+        <section class="pt">
+            <div class="container text-center">
+                <div class="spacer-30"></div>
+                <div class="row">
+                    <div class="col-md-4 mb-45">
+                        <div class="post-media page-icon-top"> <img class="item-container" src="img/porduct/tony.jpg" alt="1" /> </div>
+                        <h5>CEO</h5>
+                        <p>文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字</p>
+                    </div>
+                    <div class="col-md-4 mb-45">
+                        <div class="post-media page-icon-top"> <img class="item-container" src="img/full/10.jpg" alt="1" /> </div>
+                        <h5>文字文字文字</h5>
+                        <p>文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字</p>
+                    </div>
+                    <div class="col-md-4 mb-45">
+                        <div class="post-media page-icon-top"> <img class="item-container" src="img/full/10.jpg" alt="1" /> </div>
+                        <h5>文字文字文字</h5>
+                        <p>文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End  Section -->
+        <!-- 咖啡日誌 Section -->
+        <section class="ptb-80 ">
+            <div class="container text-center">
+                <h3>咖啡日誌</h3>
+                <div class="row">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-8">
+                        <table class="table">
+                            <tr>
+                                <td>文字文字文字文字文字</td>
+                                <td align="right">
+                                    <div class="starbox"></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>文字文字文字文字文字</td>
+                                <td align="right">
+                                    <div class="starbox"></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>文字文字文字文字文字</td>
+                                <td align="right">
+                                    <div class="starbox"></div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End 咖啡日誌 Section -->
+        <!-- END CONTENT -------------------------------------------------------------------------- -->
+        <!-- FOOTER -->
+        <footer class="footer">
+            <!-- Copyright Bar -->
+            <section class="copyright pb-15">
+                <div class="container wrap">
+                    <p>
+                        <div><i class="ion ion-ios-email"></i> <a href="mailto:service@fitrecafe.com">service@fitrecafe.com</a></div>
+                        <div><i class="ion ion-ios-telephone"></i> +886 919-276665</div>
+                        <div><a target="_blank" href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a> 　<a target="_blank" href="https://instagram.com/"><i class="fa fa-instagram"></i></a></div>
+                    </p>
+                </div>
+            </section>
+            <!-- End Copyright Bar -->
+        </footer>
+        <!-- END FOOTER -->
+        <!-- Scroll Top -->
+        <a class="scroll-top"> <i class="fa fa-angle-double-up"></i> </a>
+        <!-- End Scroll Top -->
+    </div>
+    <!-- Site Wraper End -->
+    <!-- 跳出視窗   -->
+    <div id="user_form" class="modal fade" role="dialog" aria-labelledby="myModalLabel10" aria-hidden="true">
+        <!--modal-dialog-->
+        <div class="modal-dialog">
+            <!--modal-content-->
+            <div class="modal-content">
+                <div id="user"> </div>
+            </div>
+            <!--modal-content  end-->
+        </div>
+        <!--modal-dialog end-->
+    </div>
+    <!-- 跳出視窗   end-->
+    <!-- JS -->
+    <script src="js/jquery-1.11.2.min.js" type="text/javascript"></script>
+    <script src="js/plugin/jquery.easing.js" type="text/javascript"></script>
+    <script src="js/jquery-ui.min.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="js/plugin/jquery.flexslider.js" type="text/javascript"></script>
+    <script src="js/plugin/background-check.min.js" type="text/javascript"></script>
+    <script src="js/plugin/jquery.fitvids.js" type="text/javascript"></script>
+    <script src="js/plugin/jquery.viewportchecker.js" type="text/javascript"></script>
+    <script src="js/plugin/jquery.stellar.min.js" type="text/javascript"></script>
+    <script src="js/plugin/wow.min.js" type="text/javascript"></script>
+    <script src="js/plugin/jquery.colorbox-min.js" type="text/javascript"></script>
+    <script src="js/plugin/owl.carousel.min.js" type="text/javascript"></script>
+    <script src="js/plugin/isotope.pkgd.min.js" type="text/javascript"></script>
+    <script src="js/plugin/masonry.pkgd.min.js" type="text/javascript"></script>
+    <script src="js/plugin/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+    <script src="js/plugin/jPushMenu.js" type="text/javascript"></script>
+    <script src="js/plugin/jquery.fs.tipper.min.js" type="text/javascript"></script>
+    <script src="js/plugin/mediaelement-and-player.min.js"></script>
+    <script src="js/plugin/jquery.validate.min.js" type="text/javascript"></script>
+    <script src="js/theme.js" type="text/javascript"></script>
+    <script src="js/navigation.js" type="text/javascript"></script>
+    <script src="js/plugin/jquery.singlePageNav.js" type="text/javascript"></script>
+    <script src="js/contact-form.js" type="text/javascript"></script>
+    <script src="jStarbox-master/jstarbox.js"></script>
+    <!--<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <script type="text/javascript" src="js/map.js"></script>-->
+    <script>
+    //星星評價
+    $('.starbox').starbox({
+        average: 0.5,
+        changeable: true,
+        autoUpdateAverage: true,
+        ghosting: true
+    });
+
+    //修改
+    $(function() {
+        $(".change").click(function() {
+            $("#info-list").addClass("disabled");
+            $("#info-edit").removeClass("disabled");
+        });
+        $(".done").click(function() {
+            $("#info-list").removeClass("disabled");
+            $("#info-edit").addClass("disabled");
+        });
+    });
+
+    //登入登出
+    $(function() {
+        $(".in-bt").click(function() {
+            $("#in").addClass("disabled");
+            $("#out").removeClass("disabled");
+        });
+        $(".out-bt").click(function() {
+            $("#in").removeClass("disabled");
+            $("#out").addClass("disabled");
+        });
+    });
+    </script>
+</body>
+
+</html>
